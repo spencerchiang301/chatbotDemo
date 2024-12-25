@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "choaidemo"
+version = "0.1.0"
+description = ""
+authors = ["spencer <developer@twces.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.1.0"
+flask-cors = "^5.0.0"
+flask-jwt-extended = "^4.7.0"
+configparser = "^7.1.0"
+openai = "^1.54.5"
+pymongo = "^4.10.1"
+gunicorn = "^23.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
